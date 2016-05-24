@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCF1DD7B1CF43BBE00EE17AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD7A1CF43BBE00EE17AF /* main.m */; };
+		DCF1DD7E1CF43BBE00EE17AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD7D1CF43BBE00EE17AF /* AppDelegate.m */; };
+		DCF1DD811CF43BBE00EE17AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD801CF43BBE00EE17AF /* ViewController.m */; };
+		DCF1DD841CF43BBE00EE17AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1DD821CF43BBE00EE17AF /* Main.storyboard */; };
+		DCF1DD861CF43BBE00EE17AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF1DD851CF43BBE00EE17AF /* Assets.xcassets */; };
+		DCF1DD891CF43BBE00EE17AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1DD871CF43BBE00EE17AF /* LaunchScreen.storyboard */; };
+		DCF1DD941CF43BBE00EE17AF /* GA_Swizzling_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD931CF43BBE00EE17AF /* GA_Swizzling_OCTests.m */; };
+		DCF1DD9F1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD9E1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCF1DD901CF43BBE00EE17AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF1DD6E1CF43BBE00EE17AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF1DD751CF43BBE00EE17AF;
+			remoteInfo = GA_Swizzling_OC;
+		};
+		DCF1DD9B1CF43BBE00EE17AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF1DD6E1CF43BBE00EE17AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF1DD751CF43BBE00EE17AF;
+			remoteInfo = GA_Swizzling_OC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCF1DD761CF43BBE00EE17AF /* GA_Swizzling_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_Swizzling_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF1DD7A1CF43BBE00EE17AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCF1DD7C1CF43BBE00EE17AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCF1DD7D1CF43BBE00EE17AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCF1DD7F1CF43BBE00EE17AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCF1DD801CF43BBE00EE17AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCF1DD831CF43BBE00EE17AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCF1DD851CF43BBE00EE17AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCF1DD881CF43BBE00EE17AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCF1DD8A1CF43BBE00EE17AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF1DD8F1CF43BBE00EE17AF /* GA_Swizzling_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Swizzling_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF1DD931CF43BBE00EE17AF /* GA_Swizzling_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GA_Swizzling_OCTests.m; sourceTree = "<group>"; };
+		DCF1DD951CF43BBE00EE17AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF1DD9A1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Swizzling_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF1DD9E1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GA_Swizzling_OCUITests.m; sourceTree = "<group>"; };
+		DCF1DDA01CF43BBE00EE17AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF1DD731CF43BBE00EE17AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF1DD8C1CF43BBE00EE17AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF1DD971CF43BBE00EE17AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCF1DD6D1CF43BBE00EE17AF = {
+			isa = PBXGroup;
+			children = (
+				DCF1DD781CF43BBE00EE17AF /* GA_Swizzling_OC */,
+				DCF1DD921CF43BBE00EE17AF /* GA_Swizzling_OCTests */,
+				DCF1DD9D1CF43BBE00EE17AF /* GA_Swizzling_OCUITests */,
+				DCF1DD771CF43BBE00EE17AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF1DD771CF43BBE00EE17AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF1DD761CF43BBE00EE17AF /* GA_Swizzling_OC.app */,
+				DCF1DD8F1CF43BBE00EE17AF /* GA_Swizzling_OCTests.xctest */,
+				DCF1DD9A1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF1DD781CF43BBE00EE17AF /* GA_Swizzling_OC */ = {
+			isa = PBXGroup;
+			children = (
+				DCF1DD7C1CF43BBE00EE17AF /* AppDelegate.h */,
+				DCF1DD7D1CF43BBE00EE17AF /* AppDelegate.m */,
+				DCF1DD7F1CF43BBE00EE17AF /* ViewController.h */,
+				DCF1DD801CF43BBE00EE17AF /* ViewController.m */,
+				DCF1DD821CF43BBE00EE17AF /* Main.storyboard */,
+				DCF1DD851CF43BBE00EE17AF /* Assets.xcassets */,
+				DCF1DD871CF43BBE00EE17AF /* LaunchScreen.storyboard */,
+				DCF1DD8A1CF43BBE00EE17AF /* Info.plist */,
+				DCF1DD791CF43BBE00EE17AF /* Supporting Files */,
+			);
+			path = GA_Swizzling_OC;
+			sourceTree = "<group>";
+		};
+		DCF1DD791CF43BBE00EE17AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCF1DD7A1CF43BBE00EE17AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCF1DD921CF43BBE00EE17AF /* GA_Swizzling_OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF1DD931CF43BBE00EE17AF /* GA_Swizzling_OCTests.m */,
+				DCF1DD951CF43BBE00EE17AF /* Info.plist */,
+			);
+			path = GA_Swizzling_OCTests;
+			sourceTree = "<group>";
+		};
+		DCF1DD9D1CF43BBE00EE17AF /* GA_Swizzling_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF1DD9E1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.m */,
+				DCF1DDA01CF43BBE00EE17AF /* Info.plist */,
+			);
+			path = GA_Swizzling_OCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF1DD751CF43BBE00EE17AF /* GA_Swizzling_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF1DDA31CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OC" */;
+			buildPhases = (
+				DCF1DD721CF43BBE00EE17AF /* Sources */,
+				DCF1DD731CF43BBE00EE17AF /* Frameworks */,
+				DCF1DD741CF43BBE00EE17AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GA_Swizzling_OC;
+			productName = GA_Swizzling_OC;
+			productReference = DCF1DD761CF43BBE00EE17AF /* GA_Swizzling_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCF1DD8E1CF43BBE00EE17AF /* GA_Swizzling_OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF1DDA61CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OCTests" */;
+			buildPhases = (
+				DCF1DD8B1CF43BBE00EE17AF /* Sources */,
+				DCF1DD8C1CF43BBE00EE17AF /* Frameworks */,
+				DCF1DD8D1CF43BBE00EE17AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF1DD911CF43BBE00EE17AF /* PBXTargetDependency */,
+			);
+			name = GA_Swizzling_OCTests;
+			productName = GA_Swizzling_OCTests;
+			productReference = DCF1DD8F1CF43BBE00EE17AF /* GA_Swizzling_OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCF1DD991CF43BBE00EE17AF /* GA_Swizzling_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF1DDA91CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OCUITests" */;
+			buildPhases = (
+				DCF1DD961CF43BBE00EE17AF /* Sources */,
+				DCF1DD971CF43BBE00EE17AF /* Frameworks */,
+				DCF1DD981CF43BBE00EE17AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF1DD9C1CF43BBE00EE17AF /* PBXTargetDependency */,
+			);
+			name = GA_Swizzling_OCUITests;
+			productName = GA_Swizzling_OCUITests;
+			productReference = DCF1DD9A1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF1DD6E1CF43BBE00EE17AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = houjianan;
+				TargetAttributes = {
+					DCF1DD751CF43BBE00EE17AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DCF1DD8E1CF43BBE00EE17AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCF1DD751CF43BBE00EE17AF;
+					};
+					DCF1DD991CF43BBE00EE17AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCF1DD751CF43BBE00EE17AF;
+					};
+				};
+			};
+			buildConfigurationList = DCF1DD711CF43BBE00EE17AF /* Build configuration list for PBXProject "GA_Swizzling_OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF1DD6D1CF43BBE00EE17AF;
+			productRefGroup = DCF1DD771CF43BBE00EE17AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF1DD751CF43BBE00EE17AF /* GA_Swizzling_OC */,
+				DCF1DD8E1CF43BBE00EE17AF /* GA_Swizzling_OCTests */,
+				DCF1DD991CF43BBE00EE17AF /* GA_Swizzling_OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF1DD741CF43BBE00EE17AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF1DD891CF43BBE00EE17AF /* LaunchScreen.storyboard in Resources */,
+				DCF1DD861CF43BBE00EE17AF /* Assets.xcassets in Resources */,
+				DCF1DD841CF43BBE00EE17AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF1DD8D1CF43BBE00EE17AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF1DD981CF43BBE00EE17AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF1DD721CF43BBE00EE17AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF1DD811CF43BBE00EE17AF /* ViewController.m in Sources */,
+				DCF1DD7E1CF43BBE00EE17AF /* AppDelegate.m in Sources */,
+				DCF1DD7B1CF43BBE00EE17AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF1DD8B1CF43BBE00EE17AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF1DD941CF43BBE00EE17AF /* GA_Swizzling_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF1DD961CF43BBE00EE17AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF1DD9F1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCF1DD911CF43BBE00EE17AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF1DD751CF43BBE00EE17AF /* GA_Swizzling_OC */;
+			targetProxy = DCF1DD901CF43BBE00EE17AF /* PBXContainerItemProxy */;
+		};
+		DCF1DD9C1CF43BBE00EE17AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF1DD751CF43BBE00EE17AF /* GA_Swizzling_OC */;
+			targetProxy = DCF1DD9B1CF43BBE00EE17AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCF1DD821CF43BBE00EE17AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF1DD831CF43BBE00EE17AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCF1DD871CF43BBE00EE17AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF1DD881CF43BBE00EE17AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCF1DDA11CF43BBE00EE17AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCF1DDA21CF43BBE00EE17AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF1DDA41CF43BBE00EE17AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GA_Swizzling_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Swizzling-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCF1DDA51CF43BBE00EE17AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GA_Swizzling_OC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Swizzling-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCF1DDA71CF43BBE00EE17AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GA_Swizzling_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Swizzling-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_Swizzling_OC.app/GA_Swizzling_OC";
+			};
+			name = Debug;
+		};
+		DCF1DDA81CF43BBE00EE17AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GA_Swizzling_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Swizzling-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GA_Swizzling_OC.app/GA_Swizzling_OC";
+			};
+			name = Release;
+		};
+		DCF1DDAA1CF43BBE00EE17AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GA_Swizzling_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Swizzling-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GA_Swizzling_OC;
+			};
+			name = Debug;
+		};
+		DCF1DDAB1CF43BBE00EE17AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GA_Swizzling_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Swizzling-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GA_Swizzling_OC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF1DD711CF43BBE00EE17AF /* Build configuration list for PBXProject "GA_Swizzling_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF1DDA11CF43BBE00EE17AF /* Debug */,
+				DCF1DDA21CF43BBE00EE17AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF1DDA31CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF1DDA41CF43BBE00EE17AF /* Debug */,
+				DCF1DDA51CF43BBE00EE17AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCF1DDA61CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF1DDA71CF43BBE00EE17AF /* Debug */,
+				DCF1DDA81CF43BBE00EE17AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCF1DDA91CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF1DDAA1CF43BBE00EE17AF /* Debug */,
+				DCF1DDAB1CF43BBE00EE17AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCF1DD6E1CF43BBE00EE17AF /* Project object */;
+}
