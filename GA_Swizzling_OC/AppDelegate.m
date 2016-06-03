@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AppDelegate+Logging.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self setupLogging];
+    
     return YES;
 }
 

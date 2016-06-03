@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F631A850C263E05B2F30743 /* libPods-GA_Swizzling_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AF5088E49D0DE0260239BD /* libPods-GA_Swizzling_OC.a */; };
+		DC10D1D31CF6D6B70081F204 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC10D1D21CF6D6B70081F204 /* OneViewController.m */; };
+		DC7768221CFFEA32006D5322 /* TestMRCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7768211CFFEA32006D5322 /* TestMRCClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DC7768281D00184A006D5322 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7768271D00184A006D5322 /* MyObject.m */; };
+		DC9A24D41D017AB700D2FE70 /* RuntimeCategoryClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A24D31D017AB700D2FE70 /* RuntimeCategoryClass.m */; };
+		DC9A24DA1D017B2600D2FE70 /* RuntimeCategoryClass+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A24D91D017B2600D2FE70 /* RuntimeCategoryClass+Category.m */; };
+		DC9A24DD1D01830F00D2FE70 /* RuntimeBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9A24DC1D01830F00D2FE70 /* RuntimeBlock.m */; };
+		DCC1EE371CF73D530088EB19 /* NSArray+GA_Array.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1EE361CF73D530088EB19 /* NSArray+GA_Array.m */; };
+		DCC1EE3A1CF740AB0088EB19 /* UIView+BadgedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC1EE391CF740AB0088EB19 /* UIView+BadgedView.m */; };
+		DCE51A831CFD7AF5000D6F32 /* AppDelegate+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE51A821CFD7AF5000D6F32 /* AppDelegate+Logging.m */; };
+		DCE51A861CFD7B5B000D6F32 /* GA_Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE51A851CFD7B5B000D6F32 /* GA_Logging.m */; };
+		DCE51A891CFD7FFB000D6F32 /* OneViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE51A881CFD7FFB000D6F32 /* OneViewController+Tracking.m */; };
+		DCE51A8C1CFD80C4000D6F32 /* ViewController+AspectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE51A8B1CFD80C4000D6F32 /* ViewController+AspectTest.m */; };
+		DCE51A921CFD988E000D6F32 /* NSMutableArray+GA_SaveMArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE51A911CFD988E000D6F32 /* NSMutableArray+GA_SaveMArray.m */; };
 		DCF1DD7B1CF43BBE00EE17AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD7A1CF43BBE00EE17AF /* main.m */; };
 		DCF1DD7E1CF43BBE00EE17AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD7D1CF43BBE00EE17AF /* AppDelegate.m */; };
 		DCF1DD811CF43BBE00EE17AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD801CF43BBE00EE17AF /* ViewController.m */; };
@@ -15,6 +29,8 @@
 		DCF1DD891CF43BBE00EE17AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF1DD871CF43BBE00EE17AF /* LaunchScreen.storyboard */; };
 		DCF1DD941CF43BBE00EE17AF /* GA_Swizzling_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD931CF43BBE00EE17AF /* GA_Swizzling_OCTests.m */; };
 		DCF1DD9F1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF1DD9E1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.m */; };
+		DCF4BDCA1CF811DE001271D6 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF4BDC91CF811DE001271D6 /* Test.m */; };
+		DCF51A9D1D0138D700D49616 /* RuntimeMethodHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF51A9C1D0138D700D49616 /* RuntimeMethodHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FB77E3B3186E9967115173E /* Pods-GA_Swizzling_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GA_Swizzling_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GA_Swizzling_OC/Pods-GA_Swizzling_OC.release.xcconfig"; sourceTree = "<group>"; };
+		83AF5088E49D0DE0260239BD /* libPods-GA_Swizzling_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GA_Swizzling_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC10D1D11CF6D6B70081F204 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		DC10D1D21CF6D6B70081F204 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		DC7768201CFFEA32006D5322 /* TestMRCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMRCClass.h; sourceTree = "<group>"; };
+		DC7768211CFFEA32006D5322 /* TestMRCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMRCClass.m; sourceTree = "<group>"; };
+		DC7768261D00184A006D5322 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		DC7768271D00184A006D5322 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		DC9A24D21D017AB700D2FE70 /* RuntimeCategoryClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeCategoryClass.h; sourceTree = "<group>"; };
+		DC9A24D31D017AB700D2FE70 /* RuntimeCategoryClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeCategoryClass.m; sourceTree = "<group>"; };
+		DC9A24D81D017B2600D2FE70 /* RuntimeCategoryClass+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RuntimeCategoryClass+Category.h"; sourceTree = "<group>"; };
+		DC9A24D91D017B2600D2FE70 /* RuntimeCategoryClass+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RuntimeCategoryClass+Category.m"; sourceTree = "<group>"; };
+		DC9A24DB1D01830F00D2FE70 /* RuntimeBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeBlock.h; sourceTree = "<group>"; };
+		DC9A24DC1D01830F00D2FE70 /* RuntimeBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeBlock.m; sourceTree = "<group>"; };
+		DCC1EE351CF73D530088EB19 /* NSArray+GA_Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GA_Array.h"; sourceTree = "<group>"; };
+		DCC1EE361CF73D530088EB19 /* NSArray+GA_Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GA_Array.m"; sourceTree = "<group>"; };
+		DCC1EE381CF740AB0088EB19 /* UIView+BadgedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BadgedView.h"; sourceTree = "<group>"; };
+		DCC1EE391CF740AB0088EB19 /* UIView+BadgedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BadgedView.m"; sourceTree = "<group>"; };
+		DCE51A811CFD7AF5000D6F32 /* AppDelegate+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Logging.h"; sourceTree = "<group>"; };
+		DCE51A821CFD7AF5000D6F32 /* AppDelegate+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Logging.m"; sourceTree = "<group>"; };
+		DCE51A841CFD7B5B000D6F32 /* GA_Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GA_Logging.h; sourceTree = "<group>"; };
+		DCE51A851CFD7B5B000D6F32 /* GA_Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GA_Logging.m; sourceTree = "<group>"; };
+		DCE51A871CFD7FFB000D6F32 /* OneViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OneViewController+Tracking.h"; sourceTree = "<group>"; };
+		DCE51A881CFD7FFB000D6F32 /* OneViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OneViewController+Tracking.m"; sourceTree = "<group>"; };
+		DCE51A8A1CFD80C4000D6F32 /* ViewController+AspectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+AspectTest.h"; sourceTree = "<group>"; };
+		DCE51A8B1CFD80C4000D6F32 /* ViewController+AspectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+AspectTest.m"; sourceTree = "<group>"; };
+		DCE51A901CFD988E000D6F32 /* NSMutableArray+GA_SaveMArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+GA_SaveMArray.h"; sourceTree = "<group>"; };
+		DCE51A911CFD988E000D6F32 /* NSMutableArray+GA_SaveMArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+GA_SaveMArray.m"; sourceTree = "<group>"; };
 		DCF1DD761CF43BBE00EE17AF /* GA_Swizzling_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_Swizzling_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF1DD7A1CF43BBE00EE17AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCF1DD7C1CF43BBE00EE17AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +95,11 @@
 		DCF1DD9A1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_Swizzling_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF1DD9E1CF43BBE00EE17AF /* GA_Swizzling_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GA_Swizzling_OCUITests.m; sourceTree = "<group>"; };
 		DCF1DDA01CF43BBE00EE17AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF4BDC81CF811DE001271D6 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		DCF4BDC91CF811DE001271D6 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		DCF51A9B1D0138D700D49616 /* RuntimeMethodHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeMethodHelper.h; sourceTree = "<group>"; };
+		DCF51A9C1D0138D700D49616 /* RuntimeMethodHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeMethodHelper.m; sourceTree = "<group>"; };
+		E3087AF2085C588C18952608 /* Pods-GA_Swizzling_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GA_Swizzling_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GA_Swizzling_OC/Pods-GA_Swizzling_OC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F631A850C263E05B2F30743 /* libPods-GA_Swizzling_OC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46B80BC825F057E25773CA9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83AF5088E49D0DE0260239BD /* libPods-GA_Swizzling_OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCF1DD6D1CF43BBE00EE17AF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +143,8 @@
 				DCF1DD921CF43BBE00EE17AF /* GA_Swizzling_OCTests */,
 				DCF1DD9D1CF43BBE00EE17AF /* GA_Swizzling_OCUITests */,
 				DCF1DD771CF43BBE00EE17AF /* Products */,
+				FCCE99FCCB6882FADC2345F0 /* Pods */,
+				46B80BC825F057E25773CA9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +161,40 @@
 		DCF1DD781CF43BBE00EE17AF /* GA_Swizzling_OC */ = {
 			isa = PBXGroup;
 			children = (
+				DCC1EE351CF73D530088EB19 /* NSArray+GA_Array.h */,
+				DCC1EE361CF73D530088EB19 /* NSArray+GA_Array.m */,
+				DCE51A901CFD988E000D6F32 /* NSMutableArray+GA_SaveMArray.h */,
+				DCE51A911CFD988E000D6F32 /* NSMutableArray+GA_SaveMArray.m */,
 				DCF1DD7C1CF43BBE00EE17AF /* AppDelegate.h */,
 				DCF1DD7D1CF43BBE00EE17AF /* AppDelegate.m */,
+				DCE51A811CFD7AF5000D6F32 /* AppDelegate+Logging.h */,
+				DCE51A821CFD7AF5000D6F32 /* AppDelegate+Logging.m */,
+				DCE51A841CFD7B5B000D6F32 /* GA_Logging.h */,
+				DCE51A851CFD7B5B000D6F32 /* GA_Logging.m */,
 				DCF1DD7F1CF43BBE00EE17AF /* ViewController.h */,
 				DCF1DD801CF43BBE00EE17AF /* ViewController.m */,
+				DCE51A8A1CFD80C4000D6F32 /* ViewController+AspectTest.h */,
+				DCE51A8B1CFD80C4000D6F32 /* ViewController+AspectTest.m */,
+				DCF4BDC81CF811DE001271D6 /* Test.h */,
+				DCF4BDC91CF811DE001271D6 /* Test.m */,
+				DC7768201CFFEA32006D5322 /* TestMRCClass.h */,
+				DC7768211CFFEA32006D5322 /* TestMRCClass.m */,
+				DC7768261D00184A006D5322 /* MyObject.h */,
+				DC7768271D00184A006D5322 /* MyObject.m */,
+				DCF51A9B1D0138D700D49616 /* RuntimeMethodHelper.h */,
+				DCF51A9C1D0138D700D49616 /* RuntimeMethodHelper.m */,
+				DC9A24D21D017AB700D2FE70 /* RuntimeCategoryClass.h */,
+				DC9A24D31D017AB700D2FE70 /* RuntimeCategoryClass.m */,
+				DC9A24D81D017B2600D2FE70 /* RuntimeCategoryClass+Category.h */,
+				DC9A24D91D017B2600D2FE70 /* RuntimeCategoryClass+Category.m */,
+				DC9A24DB1D01830F00D2FE70 /* RuntimeBlock.h */,
+				DC9A24DC1D01830F00D2FE70 /* RuntimeBlock.m */,
+				DC10D1D11CF6D6B70081F204 /* OneViewController.h */,
+				DC10D1D21CF6D6B70081F204 /* OneViewController.m */,
+				DCE51A871CFD7FFB000D6F32 /* OneViewController+Tracking.h */,
+				DCE51A881CFD7FFB000D6F32 /* OneViewController+Tracking.m */,
+				DCC1EE381CF740AB0088EB19 /* UIView+BadgedView.h */,
+				DCC1EE391CF740AB0088EB19 /* UIView+BadgedView.m */,
 				DCF1DD821CF43BBE00EE17AF /* Main.storyboard */,
 				DCF1DD851CF43BBE00EE17AF /* Assets.xcassets */,
 				DCF1DD871CF43BBE00EE17AF /* LaunchScreen.storyboard */,
@@ -140,6 +230,15 @@
 			path = GA_Swizzling_OCUITests;
 			sourceTree = "<group>";
 		};
+		FCCE99FCCB6882FADC2345F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3087AF2085C588C18952608 /* Pods-GA_Swizzling_OC.debug.xcconfig */,
+				1FB77E3B3186E9967115173E /* Pods-GA_Swizzling_OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCF1DDA31CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OC" */;
 			buildPhases = (
+				C9C923B681AAABBF8ECA57AD /* 📦 Check Pods Manifest.lock */,
 				DCF1DD721CF43BBE00EE17AF /* Sources */,
 				DCF1DD731CF43BBE00EE17AF /* Frameworks */,
 				DCF1DD741CF43BBE00EE17AF /* Resources */,
+				0DFC179244F8E63CE0343602 /* 📦 Embed Pods Frameworks */,
+				92491E1510306BE541728A53 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +367,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DFC179244F8E63CE0343602 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GA_Swizzling_OC/Pods-GA_Swizzling_OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92491E1510306BE541728A53 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GA_Swizzling_OC/Pods-GA_Swizzling_OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C923B681AAABBF8ECA57AD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCF1DD721CF43BBE00EE17AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9A24DA1D017B2600D2FE70 /* RuntimeCategoryClass+Category.m in Sources */,
+				DCE51A831CFD7AF5000D6F32 /* AppDelegate+Logging.m in Sources */,
+				DCE51A861CFD7B5B000D6F32 /* GA_Logging.m in Sources */,
+				DC7768281D00184A006D5322 /* MyObject.m in Sources */,
+				DCF4BDCA1CF811DE001271D6 /* Test.m in Sources */,
 				DCF1DD811CF43BBE00EE17AF /* ViewController.m in Sources */,
+				DC7768221CFFEA32006D5322 /* TestMRCClass.m in Sources */,
+				DCE51A921CFD988E000D6F32 /* NSMutableArray+GA_SaveMArray.m in Sources */,
+				DCE51A8C1CFD80C4000D6F32 /* ViewController+AspectTest.m in Sources */,
+				DCC1EE371CF73D530088EB19 /* NSArray+GA_Array.m in Sources */,
+				DC9A24D41D017AB700D2FE70 /* RuntimeCategoryClass.m in Sources */,
+				DCF51A9D1D0138D700D49616 /* RuntimeMethodHelper.m in Sources */,
 				DCF1DD7E1CF43BBE00EE17AF /* AppDelegate.m in Sources */,
+				DCC1EE3A1CF740AB0088EB19 /* UIView+BadgedView.m in Sources */,
+				DC10D1D31CF6D6B70081F204 /* OneViewController.m in Sources */,
 				DCF1DD7B1CF43BBE00EE17AF /* main.m in Sources */,
+				DC9A24DD1D01830F00D2FE70 /* RuntimeBlock.m in Sources */,
+				DCE51A891CFD7FFB000D6F32 /* OneViewController+Tracking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,9 +576,11 @@
 		};
 		DCF1DDA41CF43BBE00EE17AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3087AF2085C588C18952608 /* Pods-GA_Swizzling_OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GA_Swizzling_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Swizzling-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +589,11 @@
 		};
 		DCF1DDA51CF43BBE00EE17AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FB77E3B3186E9967115173E /* Pods-GA_Swizzling_OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GA_Swizzling_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-Swizzling-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +665,7 @@
 				DCF1DDA51CF43BBE00EE17AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCF1DDA61CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OCTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +674,7 @@
 				DCF1DDA81CF43BBE00EE17AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCF1DDA91CF43BBE00EE17AF /* Build configuration list for PBXNativeTarget "GA_Swizzling_OCUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +683,7 @@
 				DCF1DDAB1CF43BBE00EE17AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
